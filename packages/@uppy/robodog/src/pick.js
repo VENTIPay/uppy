@@ -43,7 +43,7 @@ function pick (opts = {}) {
     if (err === CANCEL) {
       uppy.getPlugin(pluginId)
         .requestCloseModal()
-      return null
+      //return null
     }
     throw err
   })

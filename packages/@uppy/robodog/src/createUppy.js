@@ -33,7 +33,8 @@ const uppyOptionNames = [
   'meta',
   'onBeforeFileAdded',
   'onBeforeUpload',
-  'debug'
+  'debug',
+  'locale',
 ]
 function createUppy (opts, overrides = {}) {
   const uppyOptions = {}
